@@ -1,0 +1,151 @@
+html{margin:0;
+background-image:url(./images/bg-full.jpg);
+}
+
+body{margin:0;
+
+
+background-image:url(./images/bg.jpg);
+background-repeat:repeat-x;
+}
+
+#head{
+width:900px;
+height:180;
+background-image:url(./images/middle_banner.gif);
+
+margin:0 auto 5;
+
+}
+
+#head-title{
+width:80%;
+height:40%;
+margin:50 auto auto 50;
+color:black;
+position: relative; 
+z-index: 2;
+color:black;
+font-size:44px;
+float:left;
+
+}
+
+#outerDiv2{
+width: 1200px;
+background-color:#89D7FD;
+border:1px solid #89D7FD;
+margin:auto;
+border-radius: 15px ;
+}
+
+#main{
+
+float:left;
+background-color:#EAF7FF;
+overflow:auto;
+width:600;
+height:590;
+margin:25 40;
+font-size:20;
+border:solid  #89D7FD thick;
+}
+
+#main a{
+text-decoration:none;
+border: 1px solid #EAF7FF;
+margin:0;
+font: 20px "Lucida Sans","Trebuchet MS",Verdana,Arial,Sans-Serif;
+font-weight: bold;
+padding:25;
+display: block;
+color:black;
+}
+#main  a:hover{
+    background-color: #89D7FD;
+	opacity:0.6;
+filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#commentWrapper { 
+  float:left;
+  width:160px;
+  position:relative;
+  z-index:2;
+}
+
+.float{
+	margin:30 auto;
+    float:left;
+    width:150px;
+}
+.float a{
+
+	text-decoration:none;
+    font: 12px "Lucida Sans","Trebuchet MS",Verdana,Arial,Sans-Serif;
+    color: black;
+    font-weight: bold;
+    padding:5;
+    display: block;
+    text-align: center;
+    
+}
+.float a:hover{
+	border: 1px solid #666;
+	border-radius: 15px ;
+}
+
+.submit input
+{
+color: darkblue;
+
+background: #CCCCCC;
+border: 2px outset #d7b9c9;
+
+   background: url("images/login.gif") no-repeat scroll center center transparent;
+
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0 0 20px;
+    text-decoration: none;
+    width: 99px;
+	text-align:right;
+	
+}
+.login-input {
+color:black;
+font-size:30px;
+}
+
+.login-input table{
+margin:25 0 20 0;
+color:black;
+font-weight: bold;
+font-size:22px;
+}
+.login-input input{
+background-color:white;
+padding:0 3;
+width:200px;
+height:27;
+font-size:16px;
+}
+legend
+{
+color: lightblue;
+
+
+background: darkblue;
+border: 2px solid darkblue;
+padding: 2px 6px;
+}
+fieldset
+{
+border: 1px solid #781351;
+width: 400px;
+margin:50 auto;
+background: #D9F1FF;
+}

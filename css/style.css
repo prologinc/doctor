@@ -1,0 +1,627 @@
+html{
+    margin:0;
+background-color:PowderBlue;
+}
+body {
+        font: 1.8em "Lucida Sans","Trebuchet MS",Verdana,Arial,Sans-Serif;
+	color: RoyalBlue;
+        background-color: PowderBlue;
+}
+input {
+                        background-color:#89D7FD;
+                        border:1px solid #808000;
+                        margin:auto;
+                      
+}
+select {
+                        background-color:#89D7FD;
+                        border:1px solid #808000;
+                        margin:auto;
+}
+textArea {
+                        background-color:#89D7FD;
+                        border:1px solid #808000;
+                        margin:auto;                   
+                        size: 40px;
+}
+.deloff{
+display: none;
+}
+.delon{
+display: block;
+}
+
+ul {
+	margin-left:10px;
+}
+div{
+}
+div.login{
+ position:fixed;
+top:40%;
+left:35%;
+}
+div.logout{
+ position:fixed;
+top:10px;
+right:5%;
+}
+div.scroll {
+height: 80%;
+width: 40%;
+overflow: auto;
+border: 1px solid #666;
+background-color: lightblue;
+padding: 8px;
+}
+a.newpatient{
+ color: blue;
+ background: #FFF380;
+}
+a.prevpatient{
+ color: blue;
+ background: #CCFB5D;
+}
+img {
+	border: 0px;
+}
+img.logo
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+label
+{
+width: 6em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block;
+font-size: 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.submit input
+{
+margin-left: 4.5em;
+}
+
+
+.submit input
+{
+color: darkblue;
+background: #CCCCCC;
+border: 2px outset #d7b9c9;
+
+   background: url("images/login.gif") no-repeat scroll center center transparent;
+    display: block;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 3px;
+    padding: 0 0 0 40px;
+    text-decoration: none;
+    width: 99px;
+	
+}
+fieldset
+{
+border: 1px solid #781351;
+width: 16em
+}
+
+legend
+{
+color: lightblue;
+background: darkblue;
+border: 2px solid darkblue;
+padding: 2px 6px
+} 
+
+p.logo_fixed
+{
+position:fixed;
+top:30px;
+right:5px;
+}
+#wrap {
+	margin: 20px auto;
+	width: 500px;
+	padding: 10px;
+	background-color: #fff;
+	border:1px solid #000;
+}
+#header {
+	height : 90px;
+	background-color : #4f4f97;
+	text-align:center;
+	color: #FFF; 
+	padding: 5px;
+}
+#header h1 {
+	padding-left: 10px;
+	padding-top: 12px;
+	font-size: 25px;
+	color: #31799F;
+}
+#header h1 a {
+	font-size: 25px;
+	color: #31799F;
+	text-decoration: none;
+}
+#header h2 {
+	padding-left: 10px;
+	padding-top: 0px;
+	font-size: 14px;
+	color: #fff;
+}
+#header h3 {
+	padding-left: 10px;
+	padding-top: 0px;
+	font-size: 14px;
+	color: #fff;
+}
+.buttonsubmit{
+	font-size: 18px!important;
+	color: gold;
+}
+#menu {
+	text-align: center;
+	margin-top: 10px;
+	font-size : 11px;
+	padding: 2px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 0px solid #D8E3EE;
+	background: #F9FCFC;
+}
+#menu a {
+	color : #4f4f97;
+	text-decoration : none;
+	padding: 10px;
+}
+#menu a:hover {
+	color : #000;
+}
+#content {
+	text-align: left;
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 11px;
+}
+#content h2 {
+	font-size: 15px;
+	color : #444;
+	padding: 0 0 5px 0;
+}
+#footer {
+	margin-top: 25px;
+	clear: both;
+	text-align: center;
+	color: #000;
+	font-size:10px;
+	background-color:#FFF;
+	padding:2px;
+}
+.meta {
+	padding-bottom:2px;
+	font-size: 10px;
+	color:#999999;
+	font:Arial, Helvetica, sans-serif;
+}
+#bottom {
+	font-size:11px;
+	padding: 10px 0 0 0;
+}
+#bottomleft {
+	width:45%;
+	float:left;
+	background:#fff;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+#bottomright {
+	width:45%;
+	float:right;
+	background:#fff;
+	padding-bottom:10px;
+	padding-right:5px;
+}
+#divider {
+	text-align: center;
+	font-size : 11px;
+	padding:2px;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.app h1{
+    
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.app h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.pat
+{
+    font-size: 25px;
+}
+.cured {
+    
+    color: green;
+}
+.nCured {
+    
+    color: red;
+}
+.hello{
+    width: 400px;
+   text-align: center;
+   border:solid 2px tan;
+     margin-top:   -200px;
+    margin-left: 25px;
+}
+
+.editB{
+   text-align: center;
+   border:solid 2px green;
+}
+
+.hell{
+   text-align: center;
+   border:solid 2px blue;
+}
+.hello1{
+    width: 400px;
+   text-align: center;
+   border:solid 2px gray;
+    margin-top: 100px;
+
+   
+}
+.try
+{
+    
+    font-size: 50px;
+    color: red;
+}
+.help{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 10px;
+    
+}
+.per
+{
+    border:solid 2px silver;
+    width: 500px;
+    margin-top: -300px;
+    margin-left: 600px;
+    
+}
+.tabbed_box{
+}
+.smallheading{
+	font-size: 0.8em!important;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+	color: darkblue;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 1px 1px;
+}
+.smallheading2{
+	font-size: 0.7em!important;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+	color: darkblue;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 1px 1px !important;
+}
+
+#pres_container{
+ 
+	width:100%;
+	height:100px;
+	padding:10px;
+	border:solid green 2px;
+    text-align: center;
+    margin-top: 20px;
+	top:10px;
+	left:5%;
+}
+#vital_container{
+ 
+	width:100%;
+	padding:2px;
+	border:solid green 2px;
+        text-align: center;
+        margin-top:5px;
+	top:5px;
+	left:5%;
+}
+#complaint_container{
+ 
+	width:100%;
+	height:100px;
+	padding:10px;
+	border:solid green 2px;
+    text-align: center;
+    margin-top: 5px;
+	top:5px;
+	right:5%;
+}
+.make{
+    width:40px;
+}
+#drug_container{
+	float:left; 
+	width:800px;
+	height:300px;
+	padding:30px;
+	border:solid silver 2px;
+        overflow: auto;
+        font-size:16px;
+        margin-left: 400px;
+        margin-top: 20px;
+}
+
+#test_container{
+	float:left; 
+	width:800px;
+	height:200px;
+	padding:30px;
+	border:solid tan 2px;
+        overflow: auto;
+        font-size:16px;
+        margin-left: 400px;
+}
+
+
+
+#probLink{
+        float:left; 
+	width:245px;
+	height:200px;
+	padding:30px;
+
+        overflow: auto;
+     
+}
+.upMid 
+{
+   float:left; 
+	width:400px;
+	height:200px;
+	padding:30px;
+
+        overflow: auto;
+    
+}
+td
+{
+
+}
+
+.upMid td
+{
+   border: 2px;
+    
+}
+.sign
+{
+    margin-left: 500px;
+}
+.adder_edit{
+    display: none;
+}
+.adder1_edit{
+    display: none;
+}
+.adder2_edit{
+    display: none;
+}
+
+.edit_temp
+{
+    display: none;
+}
+.done_test_edit
+{
+    display: none;
+}
+.test_edit{
+    display: none;
+}
+
+
+
+
+
+
+
+.addNew{
+    float:right;
+}
+
+
+.float{
+    margin:5px auto;
+    float:right;
+    width:160px;
+    
+}
+.float a{
+text-decoration:none;
+    font: 12px "Lucida Sans","Trebuchet MS",Verdana,Arial,Sans-Serif;
+    color: black;
+    font-weight: bold;
+    padding:5px;
+    display: block;
+    text-align: center;
+     height: 100px;
+     border: 1px solid #666;
+    border-radius: 25px ;
+    
+}
+.float a:hover{
+	border: 1px solid buttonface;
+	border-radius: 15px ;
+}
+.float a:active{
+    text-decoration:none;
+    font: 15px "Lucida Sans","Trebuchet MS",Verdana,Arial,Sans-Serif;
+    color: black;
+    font-weight: bold;
+    padding:5px;
+    display: block;
+    text-align: center;
+     height: 100px;
+     border: 1px solid #666;
+    border-radius: 10px ;
+}
+.float img{
+    width:110px;
+    height:90px;
+}
+#outerDiv2{
+width: 90%;
+height:auto;
+background-color:#89D7FD;
+border:1px solid #89D7FD;
+margin:auto;
+border-radius: 15px ;
+}
+
+#main{
+background-color:#EAF7FF;
+overflow:auto;
+width:96%;
+height:auto;
+font-size:20px;
+margin-left: 20px;
+margin-top: 20px;
+margin-right: 20px;
+border:solid  #89D7FD thick;
+}
+
+
+.float1{
+    margin:5px auto;
+    float:left;
+    width:160px;
+    
+}
+.float1 a{
+text-decoration:none;
+    font: 12px "Lucida Sans","Trebuchet MS",Verdana,Arial,Sans-Serif;
+    color: black;
+    font-weight: bold;
+    padding:5px;
+    display: block;
+    text-align: center;
+     height: 100px;
+     border: 1px solid #666;
+    border-radius: 25px ;
+    
+}
+.float1 a:hover{
+	border: 1px solid buttonface;
+	border-radius: 15px ;
+}
+.float1 img{
+    width:110px;
+    height:90px;
+}
+.gridH {background-color:lightskyblue;  font-family:sans-serif;
+  font-weight:bold; font-size:20px; text-align:center; color:#502020 }
+.gridB {background-color:lightblue;  font-family:sans-serif;
+  font-weight:bold; font-size:15px; text-align:center; color:#000000;}
+.grid td{
+    width:auto;     
+    padding-bottom: 5px;
+    
+}
+.grid{
+    background-color:powderblue;  font-family:sans-serif;
+    font-weight:bold; font-size:15px; text-align:center; color:#000000;
+}
+.grid1{
+    background-color:powderblue;  font-family:sans-serif;
+    font-weight:bold; font-size:15px; text-align:center; color:#000000;
+}
+.grid2{
+    background-color:powderblue;  font-family:sans-serif;
+    font-weight:bold; font-size:15px; text-align:center; color:#000000;
+}
+.grid3 {background-color:lightskyblue;  font-family:sans-serif;
+  font-weight:bold; font-size:20px; text-align:center; color:#502020 }
+
+.ui-widget{
+    width: 12px;
+}
+#head{
+width:900px;
+height:180px;
+background-image:url(./images/middle_banner.gif);
+border:1px solid #89D7FD;
+border-radius: 15px ;
+margin:0px auto 5px;
+
+}
+
+#head-title{
+width:80%;
+height:40%;
+margin:10px auto auto 10px;
+color:black;
+position: relative; 
+z-index: 2;
+color:black;
+font-size:44px;
+float:left;
+
+}
+.pad td{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pad{   
+    border-radius: 15px; 
+    width:100%;
+    height: 100px;
+}
+a{
+    background-color:paleturquoise;
+   color: blue;
+   text-decoration: none;
+}
+.add_t{
+    background-color:silver;
+   border-radius: 80px ;
+   color: blue;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 5px 5px 5px 5px;
+}
+.r_box{
+     background-color:silver;
+   border-radius: 80px ;
+   color: blue;
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 5px 5px 5px 5px;
+}
